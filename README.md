@@ -1,6 +1,6 @@
 # MIPS Assembly Minesweeper
 
-I programmed the classic game [Minesweeper](https://minesweeperonline.com/) in MIPS Assembly Language. I then implemented the game on an FPGA development board, the Nexys 4 DDR, using Xilinx Vivado to generate the entire MIPS achitecture for the board from HDL files I created for the different components of the processor.
+The iconic game [Minesweeper](https://minesweeperonline.com/) programmed in MIPS Assembly Language. The game is meant to be implemented on an FPGA development board (I used the Nexys 4 DDR) using Xilinx Vivado to generate the complete MIPS achitecture for the board from HDL files representing the different components of the processor. The various memory files contain the game instructions and graphics.
 
 When implemented on the board, the player is able to move the cursor with `WASD` or the arrow keys, flip a tile using space bar, and flag a tile using `F`.
 
